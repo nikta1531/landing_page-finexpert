@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Финэксперт - кредитный брокер для людей с плохой кредитной историей</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <span class="logo-text">Финэксперт</a></span>
+                    <span class="logo-slogan">Кредитный брокер</span>
+                </div>
+                <nav class="header__nav">
+                    <a href="#services" class="nav-link">Услуги</a>
+                    <a href="#advantages" class="nav-link">Преимущества</a>
+                    <a href="#reviews" class="nav-link">Отзывы</a>
+                    <a href="#contacts" class="nav-link">Контакты</a>
+                </nav>
+                <div class="header__phone">
+                    <a href="tel:+74951234567" class="phone-link">+7 (495) 123-45-67</a>
+                    <span class="phone-hours">Ежедневно с 9:00 до 21:00</span>
+                </div>
+                <button class="burger-menu" aria-label="Меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__inner">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Получите кредит даже с плохой кредитной историей</h1>
+                        <p class="hero__subtitle">Поможем оформить кредит на выгодных условиях с высокой вероятностью
+                            одобрения</p>
+                        <ul class="hero__list">
+                            <li class="hero__list-item">Без предоплат</li>
+                            <li class="hero__list-item">Без скрытых комиссий</li>
+                            <li class="hero__list-item">Гарантия конфиденциальности</li>
+                        </ul>
+                    </div>
+                    <div class="hero__form">
+                        <div class="form-container">
+                            <h3 class="form-title">Оставьте заявку</h3>
+                            <p class="form-subtitle">Мы перезвоним в течение 15 минут</p>
+                            <form id="lead-form" class="lead-form">
+                                <div class="form-group">
+                                    <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" id="phone" name="phone" placeholder="Ваш телефон" required>
+                                </div>
+                                <div class="form-group">
+                                    <select id="service" name="service">
+                                        <option value="" disabled selected>Выберите услугу</option>
+                                        <option value="cash">Кредит наличными</option>
+                                        <option value="business">Кредит для бизнеса</option>
+                                        <option value="mortgage">Ипотечный кредит</option>
+                                        <option value="real-estate">Кредит под залог недвижимости</option>
+                                        <option value="auto">Кредит под залог авто</option>
+                                        <option value="refinance">Рефинансирование</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="submit-btn">Получить консультацию</button>
+                                <p class="form-notice">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой
+                                        конфиденциальности</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Наши услуги</h2>
+                <div class="services__grid">
+                    <div class="service-card">
+                        <div class="service-icon">💰</div>
+                        <h3 class="service-title">Кредит наличными без залога</h3>
+                        <p class="service-description">Получите деньги на любые цели даже с испорченной кредитной
+                            историей</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🏢</div>
+                        <h3 class="service-title">Кредит для бизнеса</h3>
+                        <p class="service-description">Финансирование для ИП и ООО с любым сроком регистрации</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🏠</div>
+                        <h3 class="service-title">Ипотечный кредит</h3>
+                        <p class="service-description">Поможем купить квартиру даже с просрочками в прошлом</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🏡</div>
+                        <h3 class="service-title">Кредит под залог недвижимости</h3>
+                        <p class="service-description">Получите крупную сумму под низкий процент</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🚗</div>
+                        <h3 class="service-title">Кредит под залог авто</h3>
+                        <p class="service-description">Деньги без проверки кредитной истории</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🔄</div>
+                        <h3 class="service-title">Рефинансирование кредитов</h3>
+                        <p class="service-description">Снизим платежи и объединим все кредиты в один</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="advantages" class="advantages">
+            <div class="container">
+                <h2 class="section-title">Почему выбирают нас</h2>
+                <div class="advantages__grid">
+                    <div class="advantage-card">
+                        <div class="advantage-number">01</div>
+                        <h3 class="advantage-title">Быстрое одобрение</h3>
+                        <p class="advantage-description">Среднее время рассмотрения заявки - 1 рабочий день</p>
+                    </div>
+                    <div class="advantage-card">
+                        <div class="advantage-number">02</div>
+                        <h3 class="advantage-title">Высокий процент одобрения</h3>
+                        <p class="advantage-description">92% наших клиентов получают положительное решение</p>
+                    </div>
+                    <div class="advantage-card">
+                        <div class="advantage-number">03</div>
+                        <h3 class="advantage-title">Работаем со сложными случаями</h3>
+                        <p class="advantage-description">Просрочки, суды, испорченная кредитная история - не проблема
+                        </p>
+                    </div>
+                    <div class="advantage-card">
+                        <div class="advantage-number">04</div>
+                        <h3 class="advantage-title">Без предоплат</h3>
+                        <p class="advantage-description">Оплата только после получения денег</p>
+                    </div>
+                    <div class="advantage-card">
+                        <div class="advantage-number">05</div>
+                        <h3 class="advantage-title">Конфиденциальность</h3>
+                        <p class="advantage-description">Ваши данные защищены и не передаются третьим лицам</p>
+                    </div>
+                    <div class="advantage-card">
+                        <div class="advantage-number">06</div>
+                        <h3 class="advantage-title">Индивидуальный подход</h3>
+                        <p class="advantage-description">Подберем оптимальное решение именно для вашей ситуации</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta__inner">
+                    <div class="cta__content">
+                        <h2 class="cta__title">Не откладывайте решение финансовых проблем!</h2>
+                        <p class="cta__text">Оставьте заявку прямо сейчас и получите бесплатную консультацию специалиста
+                        </p>
+                    </div>
+                    <button class="cta__button" id="cta-button">Получить консультацию</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы наших клиентов</h2>
+                <div class="reviews__slider">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-author">Анна К.</div>
+                            <div class="review-date">12.05.2023</div>
+                        </div>
+                        <div class="review-text">
+                            После нескольких отказов в банках уже не верила, что смогу получить кредит. Финэксперт помог
+                            оформить займ под залог квартиры за 3 дня! Спасибо за профессионализм.
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-author">Игорь С.</div>
+                            <div class="review-date">28.04.2023</div>
+                        </div>
+                        <div class="review-text">
+                            Брал кредит для бизнеса с испорченной КИ из-за пандемии. Брокер нашел банк с адекватными
+                            условиями, хотя сам я получал только отказы. Рекомендую!
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-author">Ольга В.</div>
+                            <div class="review-date">15.03.2023</div>
+                        </div>
+                        <div class="review-text">
+                            Рефинансировали три кредита в один с меньшим платежом. Теперь могу спокойно спать, а не
+                            думать о долгах. Спасибо за помощь в сложной ситуации.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <h2 class="section-title">Контакты</h2>
+                        <div class="contact-item">
+                            <h3 class="contact-title">Адрес</h3>
+                            <p class="contact-text">г. Москва, ул. Тверская, д. 20, офис 305</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3 class="contact-title">Телефон</h3>
+                            <p class="contact-text"><a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <h3 class="contact-title">Email</h3>
+                            <p class="contact-text"><a href="mailto:info@finexpert.ru">info@finexpert.ru</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <h3 class="contact-title">Режим работы</h3>
+                            <p class="contact-text">Пн-Пт: 9:00 - 20:00<br>Сб-Вс: 10:00 - 18:00</p>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                        <a href="https://yandex.ru/maps/org/finardi/234422001031/?utm_medium=mapframe&utm_source=maps"
+                            style="color:#eee;font-size:12px;position:absolute;top:0px;">Финарди</a><a
+                            href="https://yandex.ru/maps/213/moscow/category/credit_broker/184105574/?utm_medium=mapframe&utm_source=maps"
+                            style="color:#eee;font-size:12px;position:absolute;top:14px;">Кредитный брокер в
+                            Москве</a><a
+                            href="https://yandex.ru/maps/213/moscow/category/mortgage_agency/184107517/?utm_medium=mapframe&utm_source=maps"
+                            style="color:#eee;font-size:12px;position:absolute;top:28px;">Ипотечное агентство в
+                            Москве</a><iframe
+                            src="https://yandex.ru/map-widget/v1/org/finardi/234422001031/?from=mapframe&indoorLevel=1&ll=37.616616%2C55.793590&z=16.78"
+                            width="560" height="400" frameborder="0" allowfullscreen="true"
+                            style="position:relative;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <span class="logo-text">Финэксперт</span>
+                    <span class="logo-slogan">Кредитный брокер</span>
+                </div>
+                <div class="footer__nav">
+                    <a href="#services" class="footer-nav-link">Услуги</a>
+                    <a href="#advantages" class="footer-nav-link">Преимущества</a>
+                    <a href="#reviews" class="footer-nav-link">Отзывы</a>
+                    <a href="#contacts" class="footer-nav-link">Контакты</a>
+                </div>
+                <div class="footer__legal">
+                    <p>© 2023 Финэксперт. Все права защищены.</p>
+                    <a href="#" class="legal-link">Политика конфиденциальности</a>
+                    <a href="#" class="legal-link">Оферта</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
