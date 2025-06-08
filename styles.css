@@ -620,11 +620,11 @@ input, select, textarea {
         max-width: 100%;
         width: 100%;
     }
-    
+    /*
     .contacts__inner {
         flex-direction: column;
     }
-    
+    */
     .contacts__map {
         min-height: 300px;
     }
